@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FEKRA | Agency Project</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script>
+	$(function() {
+	$( "#tabs" ).tabs();
+	$( "#accordion" ).accordion();
+	});
+	</script>
+	<script>
+	$(function(){
+	  $('.clickBox').on('click', function(){
+	    $('.appearBox').slideToggle(600, function(){
+	      $(this).css('background', 'white');
+	    });
+	  });
+	});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Lato|Roboto:400,500,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+  <body>
+	<section class="wrapper wrapperFlex">
+		<div class="header header2">
+		<nav class="main-navigation">
+			<img class="img-top" src="img/logo.png" class="logo-top">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#about">PAGES</a></li>
+				<li><a href="#choose">PORTFOLIO</a></li>
+				<li><a href="#blogs">BLOGS</a></li>
+				<li><a href="#features">FEATURES</a></li>
+				<li><a href="#shop">SHOP</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+				<li><a href="#"><i class="fa fa-search search"></i></a></li>
+				<li><a href="#"><i class="fa fa-bars search"></i></a></li>
+			</ul>
+		</nav>
+		<div class="header-logo">
+			<h1>Welcome To Fekra</h1>
+			<h2 class="creative">Creative. Clean Design. Lets Start an Awesome Project.</h2>
+		</div>
+		<div class="header-button">
+			<h3 class="features"><a href="#features">FEATURES</a></h3>
+			<h3 class="getstarted"><a href="#blogs">GET STARTED</a></h3>
+		</div>
+	</div>
+	<div id="about" class="about aboutFlex">
+		<div class="aboutus">ABOUT US<span class="span1">.</span></div>
+		<img src="img/line.png" class="line" alt="">
+		<div class="creative2">WE CREATE YOUR BUSINESS TO SUCCEED
+		</div>
+		<div class="about-left">
+			<img src="img/about1.jpg" alt="">
+			About Company
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas?</p>
+			<h3 class="features2"><a href="#features">READ MORE</a></h3>
+		</div>
+		<div class="about-middle">
+			<img src="img/about2.jpg" alt="">
+			Our Mission
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas?</p>
+			<h3 class="features2"><a href="#features">READ MORE</a></h3>
+		</div>
+		<div class="about-right">
+			<img src="img/about3.jpg" alt="">
+			Our Strategy
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas?</p>
+			<h3 class="features2"><a href="#features">READ MORE</a></h3>
+		</div>
+	</div>
+	<div id="choose" class="chooseFlex">
+		<div class="choose-left">
+			<p class="choose-p">WHY CHOOSE US</p>
+			<div id="tabs">
+				<ul>
+					<li><a href="#tabs-1">Responsive</a></li>
+					<li><a href="#tabs-2">Retina Ready</a></li>
+					<li><a href="#tabs-3">Features</a></li>
+				</ul>
+				<div id="tabs-1">
+					<p><img src="https://unsplash.it/110/110">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil expedita pariatur molestias, ullam dolore accusamus quis dicta maxime et nisi in voluptas sit voluptate eaque, dignissimos facilis temporibus repellat Lorem ipsum. ea.</p>
+				</div>
+				<div id="tabs-2">
+					<p><img src="https://unsplash.it/110/110">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aut nesciunt nobis modi, pariatur, soluta cupiditate a temporibus autem. Voluptatem vitae dignissimos ea consectetur numquam dolore, dicta odit tenetur quia!</p>
+				</div>
+				<div id="tabs-3">
+					<p><img src="https://unsplash.it/110/110">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia error consequatur fuga maiores excepturi mollitia explicabo iusto natus, eaque ipsam voluptatem dicta deserunt voluptate molestias dolores ullam ipsum rerum illo!</p>
+				</div>
+			</div>
+		</div>
+		<div class="choose-right">
+			<p class="choose-p">BEST FEATURES</p>
+			<div id="accordion">
+				<p class="tab-4">Theme Options</p>
+				<div>
+					<p class="tab-4">Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+				</div>
+				<p class="tab-4">Great Support</p>
+				<div>
+					<p class="tab-4">Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+				</div>
+				<p class="tab-4">Browser Compatibility</p>
+				<div>
+					<p class="tab-4">Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="blogs" class="galleryFlex">
+		<div class="aboutus">OUR WORK<span class="span1">.</span></div>
+		<img src="img/line.png" class="line2" alt="">
+		<div class="creative2">CREATIVE PORTFOLIO SHOWCASE</div>
+		<div class="gallery">
+		<div id="box1">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div>
+		<div id="box2">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div><div id="box3">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div><div id="box4">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div><div id="box5">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div><div id="box6">
+		  <div id="overlay">
+		    <span id="plus">VIEW WORK</span>
+		  </div> 
+		</div>
+	</div>
+	</div>
+	<div id="features" class="laptop laptopFlex">
+		<div class="laptop-left">
+			<div class="choose">WE CREATE YOUR BUSINESS TO SUCCESS
+				<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolore culpa iure, debitis harum sequi minus repudiandae, animi fugiat iusto totam necessitatibus doloremque cum quae est perferendis aut veniam officia.</p>
+				<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolore culpa iure, debitis harum sequi minus repudiandae, animi fugiat iusto totam necessitatibus doloremque cum quae est perferendis aut veniam officia.</p>
+			</div>
+			<div class="features2"><a href="#features">FEATURES</a></div>
+			<div class="getstarted2"><a href="#blogs">GET STARTED</a></div>
+		</div>
+		<div class="laptop-right laptop-position"><img src="img/mac.png" alt="Laptop"></div>
+	</div>
+	<div id="shop" class="services servicesFlex">
+		<div class="aboutus">OUR BEST SERVICES<span class="span1">.</span></div>
+		<img src="img/line.png" class="line" alt="">
+		<div class="creative2">OUR IMPRESSIVE SERVICES</div>
+		<div class="services-left"><img src="img/iphone.jpg" class="iphone" alt=""></div>
+		<div class="services-middle">
+		<ul>
+			<li><i class="fa fa-eye"></i>Retina Ready
+				<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellendus id dicta consectetur eaque itaque.</p></li>
+				<li><i class="fa fa-life-ring"></i>Great Support
+					<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum officia aut reprehenderit dolore, aperiam soluta!</p></li>
+					<li><i class="fa fa-arrows-h"></i>Responsive Design
+						<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum accusantium distinctio dolore mollitia, nihil consequatur.</p></li>
+						<li><i class="fa fa-globe"></i>Browser Compatibility
+							<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quidem enim accusamus, impedit numquam magnam!</p></li>
+						</ul>
+					</div>
+					<div class="services-right">
+						<ul>
+							<li><i class="fa fa-magic"></i>Trendy Design
+								<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magni, praesentium quis nesciunt modi est.</p></li>
+								<li><i class="fa fa-cog"></i>Theme Options
+									<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quisquam tenetur, iste debitis obcaecati labore.</p></li>
+									<li><i class="fa fa-umbrella"></i>Alot of Elements
+										<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore enim amet consequatur explicabo magnam perspiciatis.</p></li>
+										<li><i class="fa fa-thumbs-o-up"></i>Documentation
+											<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore illo velit at iusto, ducimus quisquam.</p></li>
+										</ul>
+									</div>
+								</div>
+								<div id="contact" class="video videoFlex">
+									<div class="video-left">
+										<iframe src="https://player.vimeo.com/video/101419884?color=2ecc71&title=0&byline=0&portrait=0&badge=0" width="400" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+									</div>
+									<div class="video-right">
+										<div class="choose-p">WE ARE DESIGN <span class="span1">CREATIVE</span> TEAMS
+										<p class="p-laptop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas.</p>
+									</div>
+									<h3 class="features3"><a href="#features">FEATURES</a></h3>
+									<h3 class="getstarted"><a href="#blogs">GET STARTED</a></h3>
+								</div>
+							</div>
+							<div class="theme themeFlex">
+								<div class="theme">
+									<nav class="theme-navigation">
+										<ul class="theme-responsive">
+											<li><a href="">graphicriver</a></li>
+											<li><a href="">videohive</a></li>
+											<li><a href="">themeforest</a></li>
+											<li><a href="">photodune</a></li>
+											<li><a href="">activeden</a></li>
+											<li><a href="">audiojungle</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="contact contactFlex">
+								<div class="contact-1">
+									<div class="choose2">Our Mission
+										<p class="p-laptop2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas.</p>
+									</div>
+									<div class="contact-2">
+										<div class="choose2">Contact List
+											<p class="p-laptop2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas.</p>
+										</div>
+										<div class="contact-3">
+											<div class="choose2">Mailing List
+												<p class="p-laptop2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas.</p>
+											</div>
+											<div class="contact-4">
+												<div class="choose2">Popular tags
+													<p class="p-laptop2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam et, consequatur aliquid maiores perspiciatis eligendi delectus officiis recusandae ea minus mollitia obcaecati, veritatis eius provident accusamus reprehenderit sit voluptas.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer footerFlex">
+								<div class="footer-left">
+									<nav class="footer2">
+										<ul>
+											<li><a href=""><i class="fa fa-facebook"></i></a></li>
+											<li><a href=""><i class="fa fa-twitter"></i></a></li>
+											<li><a href=""><i class="fa fa-google"></i></a></li>
+											<li><a href=""><i class="fa fa-behance"></i></a></li>
+											<li><a href=""><i class="fa fa-skype"></i></a></li>
+											<li><a href=""><i class="fa fa-apple"></i></a></li>
+										</ul>
+									</div>
+									<div class="p-footer">2015 FEKRA IS PROUDLY POWERED BY DANNY PATON</div>
+								</div>
+		</section>
+	</body>
+</html>
